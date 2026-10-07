@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.ttf binary
+*.m4a binary

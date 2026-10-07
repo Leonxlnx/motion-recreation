@@ -1,0 +1,17 @@
+{
+  "name": "motion-recreation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An editable Canvas and WebGL recreation of a motion-design film, built with Astra.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "node tools/assets.mjs",
+    "verify-assets": "node tools/assets.mjs --verify",
+    "start": "node server.mjs",
+    "render": "node tools/render.mjs",
+    "smoke": "node tools/smoke.mjs"
+  },
+  "dependencies": { "tar": "7.5.22" },
+  "devDependencies": { "playwright": "1.63.0" }
+}

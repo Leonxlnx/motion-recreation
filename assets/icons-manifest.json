@@ -1,0 +1,325 @@
+{
+  "clapper": {
+    "width": 84,
+    "height": 91,
+    "sourceFrame": 302
+  },
+  "plant": {
+    "width": 184,
+    "height": 239,
+    "sourceFrame": 222
+  },
+  "cash": {
+    "width": 254,
+    "height": 170,
+    "sourceFrame": 226
+  },
+  "cap": {
+    "width": 80,
+    "height": 64,
+    "sourceFrame": 305
+  },
+  "gamepad": {
+    "width": 112,
+    "height": 77,
+    "sourceFrame": 305
+  },
+  "skateboard": {
+    "width": 76,
+    "height": 51,
+    "sourceFrame": 305
+  },
+  "cat": {
+    "width": 106,
+    "height": 105,
+    "sourceFrames": [
+      300,
+      302
+    ],
+    "note": "One reusable composite asset repairs occluded ear while preserving complete legs."
+  },
+  "coin": {
+    "width": 202,
+    "height": 258,
+    "sourceFrame": 260
+  },
+  "heart": {
+    "width": 163,
+    "height": 132,
+    "sourceFrame": 385
+  },
+  "camera": {
+    "width": 176,
+    "height": 119,
+    "sourceFrame": 397
+  },
+  "book": {
+    "width": 264,
+    "height": 149,
+    "sourceFrame": 242
+  },
+  "record": {
+    "width": 195.5,
+    "height": 197.5,
+    "sourceFrame": 275
+  },
+  "bookLove": {
+    "width": 183,
+    "height": 120,
+    "sourceFrame": 401
+  },
+  "recordLove": {
+    "sourceFrame": 410,
+    "crop": [
+      284,
+      190,
+      155,
+      154
+    ],
+    "description": "One native front-facing record view, reused throughout LOVE405-414."
+  },
+  "skateboardRing": {
+    "sourceFrame": 160,
+    "size": [
+      1176,
+      789
+    ],
+    "pose": [
+      344.773698,
+      378.327949,
+      294.005762,
+      198.224156,
+      0.004189,
+      0.011894,
+      0.002497,
+      -0.000047
+    ],
+    "reconstruction": "Reusable native artwork, rectified into the original asset local coordinates; first-ring variant."
+  },
+  "clapperRing": {
+    "sourceFrame": 161,
+    "size": [
+      801,
+      868
+    ],
+    "pose": [
+      398.025222,
+      371.346084,
+      200.20072,
+      216.699054,
+      0.000646,
+      0.00108,
+      -0.002,
+      -0.001908
+    ],
+    "reconstruction": "Reusable native artwork, rectified into the original asset local coordinates; first-ring variant."
+  },
+  "gamepadRing": {
+    "sourceFrame": 199,
+    "size": [
+      937,
+      644
+    ],
+    "pose": [
+      325.524402,
+      317.435019,
+      234.36525,
+      161.365824,
+      -0.000398,
+      0.000181,
+      0.00306,
+      0.001334
+    ],
+    "reconstruction": "Reusable native artwork, rectified into the original asset local coordinates; first-ring variant.",
+    "sourceFrames": [
+      199,
+      197
+    ],
+    "restoration": "Upper central rim from197 removes the separate199 ink blob."
+  },
+  "capRing": {
+    "sourceFrame": 193,
+    "size": [
+      848,
+      654
+    ],
+    "cropNative": [
+      1345,
+      1284,
+      2193,
+      1938
+    ],
+    "registration": [
+      0.8982264620130713,
+      -0.00016902697421658259,
+      -0.024180507385514555,
+      -0.0012757639550316905,
+      0.8661113013245847,
+      -0.012725982937530996,
+      0.002967329257222326,
+      -0.0009411550003073622,
+      1
+    ],
+    "reconstruction": "One isolated native artwork crop, registered to the original icon coordinates by a fixed homography. All frame motion comes from independent pose tracks; no image sequence."
+  },
+  "plantRing": {
+    "sourceFrame": 163,
+    "size": [
+      736,
+      956
+    ],
+    "pose": [
+      369.314175,
+      373.336634,
+      182.746055,
+      237.398684,
+      0.00172,
+      0.001694,
+      0.000272,
+      0.002962,
+      0.99178
+    ],
+    "reconstruction": "One complete native plant view, replacing the clipped leaf and adjacent camera pixels in the original222 matte. First-ring variant; geometry remains independently animated."
+  },
+  "catRing": {
+    "sourceFrame": 264,
+    "pose": [
+      321.283194,
+      277.528512,
+      247.008081,
+      239.103457,
+      0.000292,
+      0.001328,
+      -0.000149,
+      -0.025945
+    ],
+    "size": [
+      988,
+      979
+    ],
+    "goldFallbackPixels": 104348,
+    "offsetsBGR": [
+      0.005715738656210021,
+      0.007065839086809232,
+      0.01997440065809864
+    ],
+    "reconstruction": "One native264 artwork view, with the previously isolated300/302 cat artwork repairing the narrow left contour touched by the gold coin. First-ring variant; fixed neutral grade and independently animated pose/blur."
+  },
+  "heartRing": {
+    "matrix": [
+      0.9421834062965381,
+      9.101179259399914e-7,
+      0.00520459250395584,
+      -0.03723899052689181,
+      0.9468219906200086,
+      0.011496280173169919,
+      0.06831659474888307,
+      0.06559494917180715,
+      1
+    ],
+    "sourceFrame": 233,
+    "cropNative": [
+      976,
+      741,
+      1921,
+      1516
+    ],
+    "sourcePose": [
+      360.819965,
+      279.7304,
+      250.57969,
+      204.282559,
+      0.032244,
+      0.032254,
+      -0.075247,
+      -0.069279
+    ],
+    "offsetsBGR": [
+      0.0008882518947018629,
+      0.005100342348598957,
+      0.006008107206487348
+    ],
+    "pixels": [
+      1020,
+      826
+    ],
+    "reconstruction": "One isolated native233 artwork, rectified into the established heart coordinate system; fixed grade and independently animated pose/blur. Existing view retained on159 and smoothly blended into160."
+  },
+  "cameraRing": {
+    "sourceFrame": 264,
+    "pixels": [
+      900,
+      609
+    ],
+    "pose": [
+      518.290069,
+      273.009518,
+      223.128076,
+      150.954832,
+      -0.004824,
+      -0.003636,
+      -0.01818,
+      0.022321
+    ],
+    "repair": "Original isolated camera artwork repairs the narrow left contour overlapped by the foreground cat; LOVE red-letter matte contamination removed.",
+    "offsetsBGR": [
+      0.009332037826594891,
+      0.010202251342862586,
+      0.018901155833044768
+    ],
+    "reconstruction": "Single264 native artwork, rectified into the established camera coordinate system. Native-resolution pose/blur fits; previous397 view retained during the occluded199/200 exit. The177 ribbon crossing reuses existing ribbon geometry through the camera alpha."
+  },
+  "recordLoveTurn": {
+    "matrix": [
+      1.069429990061851,
+      -0.002590779160587756,
+      0.002766110903828529,
+      -0.06096343635418219,
+      1.0478863226697832,
+      0.07770418639678192,
+      -0.10825366665320983,
+      0.31277487685056204,
+      1
+    ],
+    "sourceFrame": 414,
+    "cropDesign": [
+      236,
+      176,
+      490,
+      389
+    ],
+    "sourcePose": [
+      362.2972936697337,
+      266.67107302934954,
+      232.36900431071544,
+      198.3666249711201,
+      0.04874801639537406,
+      0.05168284933538714,
+      0.08422233583757845,
+      -0.2982734564009697
+    ],
+    "pixels": [
+      1016,
+      852
+    ],
+    "description": "One native isolated turn view; the two crossing LOVE glyphs are repaired from the reusable front view, and the straight pixel-cell contours continue beneath them. Geometry animates independently; the front and turn views blend continuously."
+  },
+  "cashRing": {
+    "sourceFrame": 166,
+    "size": [
+      1002,
+      655
+    ],
+    "registration": "cash-ring-registration.json",
+    "description": "One reusable direct native cash view. The isolated matte removes the neighboring plant, preserves pixel-cell detail, and receives independently animated pose and optical/heat parameters."
+  },
+  "plantRingNative": {
+    "sourceFrame": 163,
+    "size": [
+      810,
+      990
+    ],
+    "registration": "plant-ring-native-registration.json",
+    "description": "One reusable direct native plant view. Its isolated matte preserves the complete right leaf tip and native pixel-cell boundaries; independently animated pose, optics, color grading and world-space heat rebuild every first-ring state."
+  }
+}

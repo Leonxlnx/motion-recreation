@@ -1,0 +1,11 @@
+node_modules/
+.asset-cache/
+assets/grain/**/*.png
+renders/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db

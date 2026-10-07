@@ -1,0 +1,31 @@
+{
+  "matrix": [
+    1.1081217627866637,
+    3.5215841739020994e-05,
+    0.06531535481289753,
+    -0.0014671847265505466,
+    1.0425720979854944,
+    0.0016547888032215697,
+    -0.00029706331831792977,
+    -0.0030881081329419873,
+    1.0
+  ],
+  "sourceFrame": 163,
+  "sourcePose": [
+    369.314175,
+    373.336634,
+    182.746055,
+    237.398684,
+    0.00172,
+    0.001694,
+    0.000272,
+    0.002962
+  ],
+  "cropNative": [
+    1120,
+    1000,
+    1930,
+    1990
+  ],
+  "description": "One direct native plant view. Opaque pigment retains source pixels; subpixel matte is separated from its independently coded background."
+}

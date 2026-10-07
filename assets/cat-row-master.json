@@ -1,0 +1,78 @@
+{
+  "frames": [
+    259,
+    260
+  ],
+  "transitions": [
+    [
+      258,
+      259
+    ],
+    [
+      260,
+      261
+    ]
+  ],
+  "artwork": "catRing.png",
+  "sourceFrame": 264,
+  "fits": {
+    "259": {
+      "pose": [
+        548.789257684751,
+        268.53408223116435,
+        213.45728406181112,
+        206.46244508487408,
+        0.003179119604753583,
+        0.004254607484201834,
+        0.007898139415884508,
+        -0.02893595938464779,
+        0.8578186317884628
+      ],
+      "blur": 0.36356890389772667,
+      "gains": [
+        0.9649917260372576,
+        0.9628623693787293,
+        0.9581582116168932
+      ],
+      "offsets": [
+        0.007662285688138138,
+        0.003681268064397971,
+        -0.008485833674256857
+      ],
+      "visibility": 0.9074537169462389,
+      "before": 0.033022425674149904,
+      "after": 0.025762270689590954,
+      "nfev": 6
+    },
+    "260": {
+      "pose": [
+        545.8472141588976,
+        269.11883016571915,
+        214.82167819595958,
+        207.77426506414773,
+        0.002314807379619659,
+        0.003190197076669538,
+        0.0038909491073670704,
+        -0.025855381417411418,
+        0.864260234771029
+      ],
+      "blur": 0.2440289158523972,
+      "gains": [
+        0.9959482276710813,
+        0.9970469385667429,
+        0.9965082046805457
+      ],
+      "offsets": [
+        0.00814150977770913,
+        0.004395752286202773,
+        -0.009070252123846212
+      ],
+      "visibility": 0.9170263722186639,
+      "before": 0.02897424648603545,
+      "after": 0.0228487275360593,
+      "nfev": 8
+    }
+  },
+  "description": "The existing large reusable cat view is registered to the two enlarged row poses. Both adjacent intervals continuously blend the finite canonical views; all other integer states and other actors retain their prior artwork and calibration.",
+  "remainingLimitation": "A narrow dark contour near the coin/cat/record overlap remains imperfect. The inherited cat alpha and overlapping coin matte need separate geometric evidence; this bounded improvement does not claim to resolve that contour."
+}

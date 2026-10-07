@@ -1,0 +1,31 @@
+{
+  "matrix": [
+    1.0122265361166294,
+    0.0010137001758033914,
+    -0.009346967485789831,
+    0.0008664661657844848,
+    0.9902141114496099,
+    -0.007368511537204499,
+    0.002749546060363587,
+    0.0003899269272542795,
+    1.0
+  ],
+  "sourceFrame": 166,
+  "sourcePose": [
+    392.311269,
+    377.342196,
+    247.4815,
+    165.372923,
+    -0.000572,
+    -0.002104,
+    -0.002716,
+    -0.000391
+  ],
+  "cropNative": [
+    1059,
+    1177,
+    2061,
+    1832
+  ],
+  "description": "One direct native cash view; opaque pigment retains original source pixels, subpixel matte removes paper and the separate teal plant."
+}

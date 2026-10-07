@@ -1,0 +1,44 @@
+{
+  "frame": 158,
+  "family": "One shared opacity cross-section and coded inner-pigment distance",
+  "independentScalarControls": 3,
+  "newRGBControlValues": 0,
+  "codedPigmentExtrapolationNative": 4,
+  "supportInnerNative": 12,
+  "supportOuterNative": 20,
+  "rings": [
+    {
+      "perimeterNative": 8773.96575106805,
+      "count": 1,
+      "start": 0
+    },
+    {
+      "perimeterNative": 3263.27187735756,
+      "count": 1,
+      "start": 1
+    }
+  ],
+  "controls": [
+    [
+      4.36924741421383,
+      0.1692069014438727,
+      1
+    ],
+    [
+      4.36924741421383,
+      0.1692069014438727,
+      1
+    ]
+  ],
+  "controlOrder": [
+    "insetNative",
+    "logSigmaNative",
+    "contrastMultiplier"
+  ],
+  "globalFittedParameters": {
+    "insetNative": 4.36924741421383,
+    "sigmaNative": 1.1843651604372099,
+    "extrapolationNative": 4
+  },
+  "sourceImagesLoadedAtRuntime": 0
+}

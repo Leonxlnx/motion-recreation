@@ -1,0 +1,59 @@
+{
+  "source": {
+    "asset": "clapperRing.png",
+    "assetSHA256": "f50eea80aa3bc81ddbbb8cba682fca1c802731bc86edad821d368caa6f134c95",
+    "dimensions": [
+      801,
+      868
+    ],
+    "grid": {
+      "x": {
+        "step": 22.017171533592983,
+        "phase": 4.90753709999299,
+        "harmonicCoherence": 0.8741099991272985
+      },
+      "y": {
+        "step": 22.023064312885577,
+        "phase": 2.759969393294887,
+        "harmonicCoherence": 0.9022929522764542
+      }
+    },
+    "protectedBandNativeArtworkPixels": 4,
+    "coordinateConvention": "Grid phase is measured in texel-center coordinates: first pixel center is0. For canonical texture coordinates u,v in[0,1], x=u*width-.5 and y=v*height-.5. A grid boundary occurs at phase+k*step.",
+    "frame162": {
+      "physicalPose": [
+        278.2523972362961,
+        379.2719886700306,
+        194.3421879891223,
+        210.5247718023312,
+        0.0007013245640831251,
+        0.0011787137896688913,
+        -0.002136593561692294,
+        -0.0021377277625941817
+      ],
+      "homographyNormalizedCenterTo720": [
+        [
+          193.74762791446412,
+          -0.49432566572629977,
+          278.2523972362961
+        ],
+        [
+          -0.6740531500212699,
+          209.71411380121822,
+          379.2719886700306
+        ],
+        [
+          -0.002136593561692294,
+          -0.0021377277625941817,
+          1
+        ]
+      ],
+      "opticalFilterAt2880": "blur(0.4559014946583035px)",
+      "nativePixelCenterMapping": "For source pixel index X,Y, design coordinates are[(X+.5)/4,(Y+.5)/4]. Apply inverse homography, then add.5 to normalized coordinates to obtain texture u,v."
+    }
+  },
+  "description": "One reusable logical-pixel artwork model. Robust RGB planes remove stochastic variation within canonical cells;4-pixel boundary bands and alpha stay unchanged. Cell planes are derived only from the reused native master, with no target frame residual.",
+  "alphaChangedPixels": 0,
+  "protectedBoundaryChangedPixels": 0,
+  "changedOpaqueFraction": 0.2984360436130319
+}
