@@ -218,7 +218,7 @@ async function main() {
   const files = validateManifest(manifest);
   if (config.verify) {
     const failed = await verifyFiles(files.keys(), files);
-    if (failed.length) throw Error(`${failed.length}/${files.size} textures are missing or changed:\n${failed.slice(0, 12).join('\n')}\nRun npm run assets to install or repair them.`);
+    if (failed.length) throw Error(`${failed.length}/${files.size} textures are missing or changed:\n${failed.slice(0, 12).join('\n')}\nRun npm run setup to install or repair them.`);
     console.log(`Verified ${files.size} texture files (${gib(manifest.totalBytes)}): every size and SHA-256 matches.`);
     return;
   }
